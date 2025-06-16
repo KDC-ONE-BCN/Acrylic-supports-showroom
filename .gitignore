@@ -1,0 +1,87 @@
+# === Ignore SolidWorks Backup and Temp Files ===
+*.sldprt.~*
+*.sldasm.~*
+*.slddrw.~*
+*~.sldprt
+*~.sldasm
+*~.slddrw
+~*.sldprt
+~*.sldasm
+~*.slddrw
+~*
+
+# Lock and autosave files
+~$*
+*.asv
+*.bak
+*.tmp
+*.dwl
+*.dwl2
+*.swarc
+*.swp
+*.asd
+*.log
+
+# SolidWorks Simulation Results (optional: ignore results to reduce repo size)
+*.cwr
+*.out
+*.fld
+*.pnt
+*.csv
+*.h5
+*.lst
+*.bin
+*.dat
+*.res
+*.rpt
+*.html
+*.emw
+*.err
+*.msg
+*.msh
+
+# Simulation folders
+Simulation Results/
+*.SLDSTD
+
+# Toolbox/Library Cache (if managed outside version control)
+swbrowser.sldedb
+Toolbox/
+ToolboxParts/
+DesignLibrary/
+library/
+LibFeatPart/
+Features/
+
+# 3D Interchange formats (ignore unless you want them in Git)
+*.step
+*.stp
+*.iges
+*.igs
+*.x_t
+*.x_b
+*.sat
+
+# Drawing Exports (optional)
+*.pdf
+*.dwg
+*.dxf
+
+# Misc App Files
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+*.DS_Store
+
+# IDE/Editor Folders (optional, depending on your environment)
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+
+# Pre-commit hook logs or caches
+.pre-commit-config.yaml
+.pre-commit-cache/
